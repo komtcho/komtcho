@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+- 🔭 I’m currently working on [units.estate](http://units.estate/)
+- 👯 I’m looking to collaborate on [LaravelEG](https://twitter.com/laraveleg)
+- 📫 How to reach me: [twitter](https://twitter.com/komicho1996)
+
 <!--
 **komicho/komicho** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
