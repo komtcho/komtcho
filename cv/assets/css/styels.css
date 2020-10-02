@@ -1,0 +1,134 @@
+*{
+    font-family: Verdana, sans-serif;
+}
+h1,h2,h3,h4{
+    margin: 0px;
+}
+.fix{
+    clear: both;
+}
+body{
+    background: #fff;
+}
+body > .container{
+    width: 7.5in;
+    background: #fff;
+    padding: 15px;
+    margin: auto;
+}
+body > .container > .name{
+    float: left;
+}
+body > .container > .info{
+    text-align: right;
+    float: right;
+}
+body > .container > .info > span{
+    display: block;
+}
+body > .container > .contact{
+    padding: 25px;
+    margin: 35px 0px 0px 0px;
+}
+body > .container > .contact h2.previous{
+    margin-top: 56px;
+}
+body > .container > .contact p{}
+body > .container > .contact p > label{
+    background: #09f;
+    border-radius:3px;
+    color: #fff;
+    font-size: 13px;
+    padding: 5px;
+    margin-right: 5px;
+}
+body > .container > .contact p.projects > label{
+    background: #333;
+    border-radius:3px;
+    color: #fff;
+    font-size: 13px;
+    padding: 2px 9px;
+    margin-right: 5px;
+}
+
+body > .container > .contact > .ex{
+    position: relative;
+    width: auto;
+    background: #eee;
+    border-bottom: 3px solid #09f;
+    padding: 9px;
+    margin-top: 29px;
+}
+
+body > .container > .contact > .ex > label.job-type{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: auto;
+    background: #09f;
+    border-right: 5px solid #333;
+    color: #fff;
+    font-size: 15px;
+    padding: 9px;
+    margin: 29px -5px 0px 0px;
+}
+
+body > .container > .contact > .ex > div.projects{
+    padding-left: 33px;
+    margin-right: 5px;
+}
+body > .container > .contact > .ex > div.projects > div.project{
+    border-left: 3px solid #333;
+    padding: 9px;
+}
+body > .container > .contact > .ex > div.projects > div.project > .title{
+    color: #232323;
+    font-size: 19px;
+    margin-bottom: 7px;
+}
+body > .container > .contact > .ex > div.projects > div.project > .title > button{
+    background: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+body > .container > .contact > .ex > div.projects > div.project > img{
+    width: 59px;
+    height: 59px;
+    float: left;
+}
+body > .container > .contact > .ex > div.projects > div.project > .description{
+    width: 527px;
+    float: left;
+    padding-left: 7px;
+}
+body > .container > .contact > .ex > div.projects > div.project > .description p{
+    color: #333;
+    font-size: 15px;
+    margin: 0px;
+}
+body > .container > .contact > .ex > div.projects > div.project > .tasks{
+    width: 527px;
+    float: left;
+    padding-left: 7px;
+}
+body > .container > .contact > .ex > div.projects > div.project > .tasks ul{
+    margin: 7px;
+    padding: 0;
+    padding-left: 15px;
+}
+body > .container > .contact > .ex > div.projects > div.project > .tasks ul li{
+    color: #333;
+    font-size: 15px;
+    margin: 0px;
+}
+body > .container > .contact > .ex > div.projects > div.project > span.info{
+    color: #111;
+    background: #F8ECC2;
+    border-radius: 5px;
+    padding: 3px;
+    display: block;
+    margin-top: 5px;
+}
+body > .container > .contact > .ex > div.projects > div.project > .fix{
+    clear: both;
+}

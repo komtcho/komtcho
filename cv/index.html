@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Karim Mohamed</title>
+        <link rel="stylesheet" href="assets/css/styels.css">
+        <script src="assets/js/angular.min.js"></script>
+        <script src="assets/js/ng-app.js"></script>
+    </head>
+    <body ng-controller="app">
+        <div class="container">
+            <div class="name">
+                <h1>Karim Mohamed</h1>
+            </div>
+            <div class="info">
+                <span>+2 0114 284 3165</span>
+                <span>komicho1996@gmail.com</span>
+                <span>github.com/komicho</span>
+            </div>
+            <div class="fix"></div>
+            <div class="contact">
+                <h2>Skills</h2>
+                <p></p>
+                <h3>Backend</h3>
+                <p>
+                    <label>PHP5, PHP7</label>
+                    <label>OOP</label>
+                    <label>MVC</label>
+                    <label>Node.js</label>
+                    &emsp;
+                    <label>Laravel</label>
+                    <label>Lumen</label>
+                    <label>Restify</label>
+                </p>
+                <br/>
+                <h3>Frontend</h3>
+                <p>
+                    <label>HTML</label>
+                    <label>CSS</label>
+                    <label>Bootstrap</label>
+                    &emsp;
+                    <label>jQuery</label>
+                    <label>Angular</label>
+                    <label>TypeScript</label>
+                </p>
+                <br/>
+                <h3>DB</h3>
+                <p>
+                    <label>MySQL</label>
+                    <label>SQLite</label>
+                    <label>MongoDB</label>
+                    <label>Redis</label>
+                </p>
+                <br/>
+                <h3>CMS</h3>
+                <p>
+                    <label>WordPress</label>
+                </p>
+                <br/>
+                <h3>Version Control</h3>
+                <p>
+                    <label>Git</label>
+                    <label>Svn</label>
+                </p>
+            </div>
+            
+            <div class="contact">
+                <h2>Experience</h2>
+                <div class="ex" ng-repeat="experience in experiences" ng-if="!experience.previous">
+                    <label ng-show="experience.jobType" class="job-type" title="job Type">{{ experience.jobType }}</label>
+                    <h3>{{ experience.companyName }}</h3>
+                    <p><label>{{ experience.duration }}</label></p>
+                    <h4>{{ experience.jobTitle }}</h4>
+                    <p>{{ experience.jobDescription }}</p>
+                    <p class="projects" ng-show="experience.projects">Projects: <label ng-repeat="project in experience.projects">{{ project.name }}</label></p>
+                    <div class="projects" ng-show="experience.projects">
+                        <div class="project" ng-repeat="project in experience.projects">
+                            <div class="title">{{ project.name }} <button ng-show="project.tasks" ng-click="descriptionTasks = !descriptionTasks">description/tasks</button></div>
+                            <img ng-src="assets/our-logos/{{ project.logo }}" >
+                            <div class="tasks" ng-show="descriptionTasks">
+                                <ul>
+                                    <li ng-repeat="task in project.tasks">{{ task }}</li>
+                                </ul>
+                            </div>
+                            <div class="description" ng-hide="descriptionTasks">
+                                <p>{{ project.description }}</p>
+                                <p ng-show="project.landingPage"><a href="{{ project.landingPage }}">landing page</a></p>
+                            </div>
+                            <div class="fix"></div>
+                            <span class="info" ng-show="project.note">{{ project.note }}</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="previous">Previous Experience</h2>
+                <div class="ex" ng-repeat="experience in experiences" ng-if="experience.previous">
+                    <label ng-show="experience.jobType" class="job-type" title="job Type">{{ experience.jobType }}</label>
+                    <h3>{{ experience.companyName }}</h3>
+                    <p><label>{{ experience.duration }}</label></p>
+                    <h4>{{ experience.jobTitle }}</h4>
+                    <p>{{ experience.jobDescription }}</p>
+                    <p class="projects" ng-show="experience.projects">Projects: <label ng-repeat="project in experience.projects">{{ project.name }}</label></p>
+                    <div class="projects" ng-show="experience.projects">
+                        <div class="project" ng-repeat="project in experience.projects">
+                            <div class="title">{{ project.name }} <button ng-show="project.tasks" ng-click="descriptionTasks = !descriptionTasks">description/tasks</button></div>
+                            <img ng-src="assets/our-logos/{{ project.logo }}" >
+                            <div class="tasks" ng-show="descriptionTasks">
+                                <ul>
+                                    <li ng-repeat="task in project.tasks">{{ task }}</li>
+                                </ul>
+                            </div>
+                            <div class="description" ng-hide="descriptionTasks">
+                                <p>{{ project.description }}</p>
+                                <p ng-show="project.landingPage"><a href="{{ project.landingPage }}">landing page</a></p>
+                            </div>
+                            <div class="fix"></div>
+                            <span class="info" ng-show="project.note">{{ project.note }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
