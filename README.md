@@ -4,6 +4,10 @@
 - 👯 I’m looking to collaborate on [LaravelEG](https://twitter.com/laraveleg)
 - 📫 How to reach me: [linkedin](https://www.linkedin.com/in/komtcho/), [twitter](https://twitter.com/komtcho)
 
+<center>
+  <img src="https://komarev.com/ghpvc/?username=komtcho&label=Visitors" alt="Visitors"/>
+</center>
+
 <!--
 **komicho/komicho** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
