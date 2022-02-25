@@ -1,12 +1,13 @@
+![](banner.jpeg)
+
 ### Hi there 👋
 
-- 🔭 I’m currently working on [units.estate](http://units.estate/)
-- 👯 I’m looking to collaborate on [LaravelEG](https://twitter.com/laraveleg)
-- 📫 How to reach me: [linkedin](https://www.linkedin.com/in/komtcho/), [twitter](https://twitter.com/komtcho)
+## Karim Mohamed
 
-<center>
-  <img src="https://komarev.com/ghpvc/?username=komtcho&label=Visitors" alt="Visitors"/>
-</center>
+Senior Backend Developer | Ecommerce Backend Developer | Laravel
+
+- 🔭 I’m currently working on [RUSHBRUSH](https://github.com/rushbrush)
+- 📫 How to reach me: [linkedin](https://www.linkedin.com/in/komtcho/), [twitter](https://twitter.com/komtcho)
 
 <!--
 **komicho/komicho** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
